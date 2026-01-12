@@ -1,24 +1,7 @@
-# Core Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-
-# Data Validation
-pydantic==2.5.3
-
-# Graph Analysis
-networkx==3.2.1
-
-# CORS Middleware (included with FastAPI)
-# python-multipart for form handling
-python-multipart==0.0.6
-
-# Production Server
-gunicorn==21.2.0
-
-# Environment Variables (for secure config)
-python-dotenv==1.0.0
-
-# Optional: Security & Performance
-# python-jose[cryptography]==3.3.0  # For JWT tokens if needed
-# passlib[bcrypt]==1.7.4  # For password hashing if needed
-# slowapi==0.1.9  # For rate limiting
+fastapi
+uvicorn
+pydantic
+requests
+python-dotenv
+python-multipart
+networkx
