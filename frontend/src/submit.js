@@ -12,7 +12,7 @@ export const SubmitButton = () => {
     const handleSubmit = async () => {
         try {
             // 1. Backend ko data bhejo
-            const response = await fetch('http://localhost:8000/pipelines/parse', {
+            const response = await fetch('https://pipeline-backend-ipkp.onrender.com/pipelines/parse', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
